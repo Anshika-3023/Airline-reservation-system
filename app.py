@@ -11,7 +11,6 @@ class User(db.Model):
     title = db.Column(db.String(200), nullable=False)
     name = db.Column(db.String(200), nullable=False)
     email = db.Column(db.String(200), nullable=False)
-    flight = db.Column(db.String(200), nullable=False)
 
 with app.app_context():
     db.create_all()
@@ -22,6 +21,8 @@ with app.app_context():
 @app.route('/')
 def hello_world():
     return render_template('index.html')
+
+
     # return 'Hello, World!'
 
 
