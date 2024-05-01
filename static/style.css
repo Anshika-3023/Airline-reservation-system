@@ -72,6 +72,40 @@ nav ul .login{
     
     
 }
+nav ul .login{
+   --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .75rem;
+    color: #07279a;
+    text-decoration: color(rgb(13, 4, 175));
+    padding: 5px;
+    border-radius: 25px;
+    
+    
+}
+nav ul .login{
+   --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .75rem;
+    color: #07279a;
+    text-decoration: color(rgb(13, 4, 175));
+    padding: 5px;
+    border-radius: 25px;
+    
+    
+}
+
+nav ul .details{
+    --bs-btn-padding-y: .25rem;
+     --bs-btn-padding-x: .5rem; 
+     --bs-btn-font-size: .75rem;
+     color: #07279a;
+     text-decoration: color(rgb(13, 4, 175));
+     padding: 5px;
+     border-radius: 25px;
+     
+     
+ }
 nav ul li .login:hover{
     color: yellow;
 }
